@@ -1,25 +1,9 @@
-if SHIELD_CORNELIUS_LEFT
+if SHIELD_CORNELIUS_LEFT || SHIELD_CORNELIUS_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Cornelius"
 
 config ZMK_SPLIT
     default y
-
-config SHIELD_CORNELIUS_LEFT
-    select ZMK_SPLIT_BLE_ROLE_CENTRAL
-
-endif
-
-if SHIELD_CORNELIUS_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "Cornelius"
-
-config ZMK_SPLIT
-    default y
-
-config SHIELD_CORNELIUS_RIGHT
-    select ZMK_SPLIT_BLE_ROLE_PERIPHERAL
 
 endif
