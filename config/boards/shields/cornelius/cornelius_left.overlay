@@ -5,3 +5,11 @@
         zmk,split-role-central = &kscan0;
     };
 };
+
+&uart0 {
+    compatible = "nordic,nrf-uarte";
+    status = "okay";
+    current-speed = 115200;
+    tx-pin = <6>;
+    rx-pin = <8>;
+};
