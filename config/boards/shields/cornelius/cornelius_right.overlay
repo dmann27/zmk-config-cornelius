@@ -1,5 +1,1 @@
-&kscan0 {
-    wakeup-source;
-};
-
 #include "cornelius.dtsi"
