@@ -6,9 +6,8 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-    bool
-    default y
+config SHIELD_CORNELIUS_LEFT
+    select ZMK_SPLIT_BLE_ROLE_CENTRAL
 
 endif
 
@@ -20,8 +19,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
-config ZMK_SPLIT_BLE_ROLE_PERIPHERAL
-    bool
-    default y
+config SHIELD_CORNELIUS_RIGHT
+    select ZMK_SPLIT_BLE_ROLE_PERIPHERAL
 
 endif
