@@ -1,1 +1,7 @@
 #include "cornelius.dtsi"
+
+/ {
+    chosen {
+        zmk,split-role-peripheral = &kscan0;
+    };
+};
