@@ -1,0 +1,7 @@
+file_format: "1"
+id: cornelius
+name: Cornelius
+type: shield
+siblings:
+  - cornelius_left
+  - cornelius_right
