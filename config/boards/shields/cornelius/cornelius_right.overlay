@@ -1,1 +1,11 @@
 #include "cornelius.dtsi"
+
+&default_transform { 
+    col-offset = <7>;
+};
+
+text/ {
+    chosen {
+        zmk,split-role = "peripheral";
+    };
+};
