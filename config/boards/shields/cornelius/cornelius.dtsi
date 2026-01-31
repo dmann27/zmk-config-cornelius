@@ -29,14 +29,14 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6)         RC(2,7) RC(2,8) 
             , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Bottom Row
             , <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Thumb keys
             ;
-        col-gpios
-            = <&pro_micro 9 GPIO_ACTIVE_HIGH> // Outer Column, pinky side
-            , <&pro_micro 8 GPIO_ACTIVE_HIGH> // Pinkie Column
-            , <&pro_micro 7 GPIO_ACTIVE_HIGH> // Ring Finger Column
-            , <&pro_micro 6 GPIO_ACTIVE_HIGH> // Middle Finger Column
-            , <&pro_micro 5 GPIO_ACTIVE_HIGH> // Index Finger Column
-            , <&pro_micro 4 GPIO_ACTIVE_HIGH> // Inner Column
-            , <&pro_micro 3 GPIO_ACTIVE_HIGH> // Aux Column, thumb side
-        ;
+//        col-gpios
+//            = <&pro_micro 9 GPIO_ACTIVE_HIGH> // Outer Column, pinky side
+//            , <&pro_micro 8 GPIO_ACTIVE_HIGH> // Pinkie Column
+//            , <&pro_micro 7 GPIO_ACTIVE_HIGH> // Ring Finger Column
+//            , <&pro_micro 6 GPIO_ACTIVE_HIGH> // Middle Finger Column
+//            , <&pro_micro 5 GPIO_ACTIVE_HIGH> // Index Finger Column
+//            , <&pro_micro 4 GPIO_ACTIVE_HIGH> // Inner Column
+//            , <&pro_micro 3 GPIO_ACTIVE_HIGH> // Aux Column, thumb side
+//        ;
     };
 };
