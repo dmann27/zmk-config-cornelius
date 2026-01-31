@@ -1,11 +1,8 @@
 #include "cornelius.dtsi"
 
-&default_transform { 
-    col-offset = <7>;
-};
-
-text/ {
+/ {
     chosen {
-        zmk,split-role = "peripheral";
+        zmk,kscan = &kscan0;
+        zmk,matrix_transform = &default_transform;
     };
 };
