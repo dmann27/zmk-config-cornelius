@@ -6,22 +6,8 @@
         zmk,matrix_transform = &default_transform;
     };
 
-
 };
 
-    // Override kscan for right half only - reverse column order
-&kscan0 {
-    col-gpios
-        = <&pro_micro 3 GPIO_ACTIVE_HIGH>   // now first = pinky/outer if pin 3 is now outer
-        , <&pro_micro 4 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 5 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 6 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 7 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 8 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 9 GPIO_ACTIVE_HIGH>;  // last = aux/thumb side
-    ;
-};
-
-&default_transform {
+&default_transform { 
     col-offset = <7>;
 };
