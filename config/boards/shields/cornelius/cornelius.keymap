@@ -9,15 +9,15 @@
 
                 default_layer {
 // ---------------------------------------------------------------------------------
-// | `   |  Q  |  W  |  E  |  R  |  T  |                            |  Y  |  U  |  I  |  O  |  P  | BSPC |
-// |TAB  |  A  |  S  |  D  |  F  |  G  |BT_CLR|               |VolU |  H  |  J  |  K  |  L  |  ;  |  '   |
-// |SHFT |  Z  |  X  |  C  |  V  |  B  | ESC |                |VolD |  N  |  M  |  ,  |  .  |  /  | SHFT |
+// | `   |  Q  |  W  |  F  |  P  |  B  |                                |  J  |  L  |  U  |  Y  |  ;  | BSPC |
+// |TAB  |  A  |  R  |  S  |  T  |  G  |BT_CLR|               |BT CLR   |  M  |  N  |  E  |  I  |  O  |  '   |
+// |SHFT |  Z  |  X  |  C  |  D  |  V  | ESC |                  |VolD   |  K  |  H  |  ,  |  .  |  /  | SHFT |
 //                         | GUI | ALT | CRL |                |BSPC | SPC |Raise|
                         bindings = <
-    &kp GRAVE   &kp Q   &kp W   &kp E       &kp R       &kp T                                   &kp Y  &kp U  &kp I     &kp O   &kp P       &kp BSPC
-    &kp TAB     &kp A   &kp S   &kp D       &kp F       &kp G  &bt BT_CLR         &bt BT_CLR  &kp H  &kp J  &kp K     &kp L   &kp SEMI    &kp APOSTROPHE
-    &kp LSHFT   &kp Z   &kp X   &kp C       &kp V       &kp B  &kp ESC            &kp C_VOLUME_DOWN  &kp N  &kp M  &kp COMMA &kp DOT &kp SLASH   &kp RSHIFT
-                                &kp LGUI    &kp LALT    &kp LCTRL                               &kp BSPC &kp SPACE &mo 1
+    &kp GRAVE   &kp Q       &kp W       &kp F       &kp P           &kp B                                   &kp J   &kp L       &kp U       &kp Y       &kp SEMI    &kp BSPC
+    &kp TAB     &mt LGUI A  &mt LALT R  &mt LCTRL S &mt LSHIFT T    &kp G  &bt BT_CLR       &bt BT_CLR      &kp M   &mt SHIFT N &mt RCTRL E &mt RALT I  &mt RGUI O  &kp APOSTROPHE
+    &kp LSHFT   &kp Z       &kp X       &kp C       &kp D           &kp V  &kp C_VOL_DN     &kp C_VOL_DN    &kp K   &kp H       &kp COMMA   &kp DOT     &kp SLASH   &kp RSHIFT
+                                        &kp LGUI    &kp LALT        &kp LCTRL                              &kp BSPC &kp SPACE   &mo 1
                         >;
                 };
 //                raise_layer {
