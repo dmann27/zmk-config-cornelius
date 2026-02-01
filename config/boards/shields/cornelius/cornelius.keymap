@@ -4,8 +4,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-        keymap {
-                compatible = "zmk,keymap";
 
 behaviors {
     hml: home_row_mod_left {
@@ -38,6 +36,10 @@ behaviors {
         >;
     };
 };
+        keymap {
+                compatible = "zmk,keymap";
+
+
 
                 default_layer {
 // ---------------------------------------------------------------------------------
