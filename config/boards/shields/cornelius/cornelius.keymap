@@ -71,8 +71,8 @@ behaviors {
 //                        >;
 
                         bindings = <
-    &kp GRAVE  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mkp LCLK                   &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans  &trans  &trans  &trans &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+    &kp GRAVE  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mkp LCLK                   &kp HOME  &kp END   &kp UP  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &trans
+    &kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &bt BT_CLR  &kp C_VOL_UP      &kp CARET  &kp LEFT &kp DOWN &kp RIGHT &kp SEMI &kp PIPE
     &trans  &trans  &trans  &trans  &trans &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                             &trans  &trans &trans                   &trans  &trans  &trans
                         >;
