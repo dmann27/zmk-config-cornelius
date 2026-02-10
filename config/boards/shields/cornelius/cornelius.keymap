@@ -71,7 +71,7 @@ behaviors {
 //                        >;
 
                         bindings = <
-    &trans  &trans  &trans  &trans  &trans &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans  &trans  &mmv MOVE_DOWN  &trans &trans                   &trans  &trans  &trans  &trans  &trans  &trans
     &trans  &trans  &trans  &trans  &trans &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
     &trans  &trans  &trans  &trans  &trans &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                             &trans  &trans &trans                   &trans  &trans  &trans
