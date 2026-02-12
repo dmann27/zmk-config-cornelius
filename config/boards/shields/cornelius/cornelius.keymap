@@ -45,13 +45,13 @@ combos {
             timeout-ms = <50>;
             key-positions = <0 12 13 19>;
             bindings = <&BT_CLR>;
-            slow-release = <true>;
+            slow-release;
         };
         combo_RIGHT_BT_CLR {
             timeout-ms = <50>;
             key-positions = <29 30 37 43>;
             bindings = <&BT_CLR>;
-            slow-release = <true>;
+            slow-release;
     };
 
 
