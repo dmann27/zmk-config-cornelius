@@ -39,21 +39,21 @@ behaviors {
         >;
     };
 };
-combos {
-        compatible = "zmk,combos";
-        combo_LEFT_BT_CLR {
-            timeout-ms = <50>;
-            key-positions = <0 12 13 19>;
-            bindings = <&bt BT_CLR>;
-            slow-release;
-        };
-        combo_RIGHT_BT_CLR {
-            timeout-ms = <50>;
-            key-positions = <29 30 37 43>;
-            bindings = <&bt BT_CLR>;
-            slow-release;
-    };
-};
+//combos {
+//        compatible = "zmk,combos";
+//        combo_LEFT_BT_CLR {
+//            timeout-ms = <50>;
+//            key-positions = <0 12 13 19>;
+//            bindings = <&bt BT_CLR>;
+//            slow-release;
+//        };
+//        combo_RIGHT_BT_CLR {
+//            timeout-ms = <50>;
+//            key-positions = <29 30 37 43>;
+//            bindings = <&bt BT_CLR>;
+//            slow-release;
+//    };
+//};
 
         keymap {
                 compatible = "zmk,keymap";
