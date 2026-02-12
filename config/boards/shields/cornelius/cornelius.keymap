@@ -50,14 +50,14 @@ combos {
         compatible = "zmk,combos";
         combo_LEFT_BT_CLR {
             timeout-ms = <50>;
-            key-positions = <0 12 13 19>;  // These are the two left corners and the two left aux keys
+            key-positions = <0 13 19>;  // These are the two left corners and the two left aux keys
             bindings = <&kp A>;
             layers = <0>;
             slow-release;
         };
         combo_RIGHT_BT_CLR {
             timeout-ms = <50>;
-            key-positions = <28 29 36 42>;  // There are the two aux keys and the other two right corners
+            key-positions = <28 36 42>;  // There are the two aux keys and the other two right corners
             bindings = <&kp B>;
             layers = <0>;
             slow-release;
