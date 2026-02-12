@@ -56,7 +56,7 @@ combos {
         };
         combo_RIGHT_BT_CLR {
             timeout-ms = <50>;
-            key-positions = <29 30 37 43>;  // There are the two aux keys and the other two right corners
+            key-positions = <28 29 36 42>;  // There are the two aux keys and the other two right corners
             bindings = <&bt BT_CLR>;
             slow-release;
         };
@@ -76,7 +76,7 @@ combos {
         };
         combo_ESCAPE {
             timeout-ms = <50>;
-            key-positions = <1 2>;  // These are the two right aux keys
+            key-positions = <1 2>;  // These are Q and W
             bindings = <&kp ESC>;
             layers = <0>;
         };
