@@ -39,6 +39,22 @@ behaviors {
         >;
     };
 };
+combos {
+        compatible = "zmk,combos";
+        combo_LEFT_BT_CLR {
+            timeout-ms = <50>;
+            key-positions = <0 12 13 19>;
+            bindings = <&BT_CLR>;
+            slow-release = <true>;
+        };
+        combo_RIGHT_BT_CLR {
+            timeout-ms = <50>;
+            key-positions = <29 30 37 43>;
+            bindings = <&BT_CLR>;
+            slow-release = <true>;
+    };
+
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -86,13 +102,13 @@ behaviors {
                 };      
                 raiseandlower_layer {
 // ---------------------------------------------------------------------------------
-// |trans|trans|trans|trans|trans|trans|                       |trans|trans|trans|trans|trans|trans|
+// |trans|trans|trans|trans|trans|trans|                         |trans|trans|trans|trans|trans|trans|
 // |trans|trans|trans|trans|trans|trans|trans|             |trans|trans|trans|trans|trans|trans|trans|
 // |trans|trans|trans|trans|trans|trans|trans|             |trans|trans|trans|trans|trans|trans|trans|
-//                 |trans|trans|trans|                  |trans|trans|trans|
+//                   |trans|trans|trans|                         |trans|trans|trans|
                         bindings = < 
 &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans 
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans 
+&trans  &BT_SEL 0  &BT_SEL 1  &BT_SEL 2 &BT_SEL 3 &BT_SEL 4  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans 
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans 
                         &trans  &trans  &trans                          &trans  &trans  &trans 
                         >;
