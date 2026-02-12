@@ -53,7 +53,7 @@ combos {
             bindings = <&BT_CLR>;
             slow-release;
     };
-
+}
 
         keymap {
                 compatible = "zmk,keymap";
