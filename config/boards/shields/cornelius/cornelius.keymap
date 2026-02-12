@@ -94,7 +94,7 @@ combos {
 // |SHFT |    |    |    |    |    |   |             |    |     |Page Down  |Page Up|     |    |   |
 //                 | GUI | ALT | ENTER |                  |BSPC | SPC       |Raise and lower  |
                   bindings = <
-    &kp GRAVE   &kp EXCL        &kp AT          &kp HASH        &kp DOLLAR      &kp PERCENT     &trans                                  &kp CARET   &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp MINUS
+    &kp GRAVE   &kp EXCL        &kp AT          &kp HASH        &kp DOLLAR      &kp PERCENT                                    &kp CARET   &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp MINUS
     &kp TAB     &kp 1          &kp 2           &kp 3           &kp 4           &kp 5           &trans                            &trans      &kp 6       &kp 7         &kp 8        &kp 9                &kp 0                &trans
     &kp LSHFT   &trans         &trans          &trans          &trans          &trans          &trans                           &trans      &trans      &trans        &kp PAGE_DOWN &kp PAGE_UP           &trans              &trans
                                 &kp LGUI        &trans       &kp ENTER                               &kp BSPC    &kp SPACE      &mo 3
