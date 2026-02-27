@@ -94,7 +94,7 @@ combos {
 //                         | GUI | Lower | ENTER |                |BSPC | SPC |Raise|
                         bindings = <
     &kp GRAVE   &kp Q           &kp W           &kp F           &kp P           &kp B                                   &kp J       &kp L           &kp U           &kp Y           &kp SEMI        &kp MINUS
-    &kp TAB     &hml (LGUI) A   &hml (LALT) R   &hml (LCTRL) S  &hml (LSHIFT) T &kp G   &kp C_VOL_UP        &kp C_NEXT  &kp M       &hml (RSHIFT) N &hml (RCTRL) E  &hml (RALT) I   &hml (RGUI) O   &kp APOSTROPHE
+    &kp TAB     &hml (LGUI) A   &hml (LALT) R   &hml (LCTRL) S  &hml (LSHIFT) T &kp G   &kp C_VOL_UP        &kp C_NEXT  &kp M       &hmr (RSHIFT) N &hmr (RCTRL) E  &hmr (RALT) I   &hmr (RGUI) O   &kp APOSTROPHE
     &kp LSHFT   &kp Z           &kp X           &kp C           &kp D           &kp V   &kp C_VOL_DN        &kp C_PREV  &kp K       &kp H           &kp COMMA       &kp DOT         &kp SLASH       &kp RSHIFT
                                                 &kp LCTRL       &mo 2           &kp ENTER                               &kp BSPC    &kp SPACE       &mo 1
                         >;
