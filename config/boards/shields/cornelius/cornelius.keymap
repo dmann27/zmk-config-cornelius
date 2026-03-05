@@ -81,18 +81,18 @@ combos {
             layers = <0>;
         };
     };
-//macros {
-//    admin_pw: admin_pw {
-//        compatible = "zmk,behavior-macro";
-//        #binding-cells = <0>;
-//        bindings 
-//        =  <&kp DOT &kp BSLH &kp L &kp O &kp C &kp A &kp L &kp A &kp D &kp M &kp I &kp N>
-//        ,  <&kp TAB>
-//        ,  <&kp DOLLAR &kp K &kp Y &kp AT &kp D &kp M &kp EXCL &kp N &kp Z &kp N0 &kp N &kp E &kp QMARK>
-//        ;
-//    };
-//
-//};
+macros {
+    admin_pw: admin_pw {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings 
+        =  <&kp DOT &kp BSLH &kp L &kp O &kp C &kp A &kp L &kp A &kp D &kp M &kp I &kp N>
+        ,  <&kp TAB>
+        ,  <&kp DOLLAR &kp K &kp Y &kp AT &kp D &kp M &kp EXCL &kp N &kp Z &kp N0 &kp N &kp E &kp QMARK>
+        ;
+    };
+
+};
 
 
         keymap {
