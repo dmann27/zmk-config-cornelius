@@ -98,6 +98,7 @@ macros {
         =  <&kp DOLLAR &kp K &kp Y &kp AT &kp D &kp M &kp EXCL &kp N &macro_press &kp LSHIFT &macro_tap &kp Z &macro_release &kp LSHIFT &macro_tap &kp N0 &kp N &kp E &kp QMARK>
         ;
 };
+};
 
 
         keymap {
