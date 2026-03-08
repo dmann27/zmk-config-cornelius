@@ -22,6 +22,8 @@ include:
   - board: nice_nano//zmk
     shield: cornelius_left
     artifact-name: cornelius_left
+    ssnippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: cornelius_right
     artifact-name: cornelius_right
