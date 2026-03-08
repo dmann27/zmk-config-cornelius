@@ -153,7 +153,7 @@ macros {
 // |trans|trans|trans|trans|trans|trans|  BT |             |trans|  0  |  1  |  2  |  3  |trans|trans|
 //                   |trans|trans|trans|                         |trans|trans|trans|
                         bindings = < 
-&studio_unlock  &trans          &trans          &trans          &trans          &trans                                              &trans  &kp N7  &kp N8  &kp N9  &trans  &trans 
+&trans  &trans          &trans          &trans          &trans          &trans                                              &trans  &kp N7  &kp N8  &kp N9  &trans  &trans 
 &trans  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &out OUT_USB        &admin_pw       &trans  &kp N4  &kp N5  &kp N6  &trans  &trans 
 &trans  &trans          &trans          &trans          &trans          &trans          &out OUT_BLE        &admin_pw_only  &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans 
                                         &trans          &trans          &trans                                              &trans  &trans  &trans 
