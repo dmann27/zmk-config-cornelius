@@ -1,3 +1,4 @@
+name: zmk-keyboard-cornelius
 build:
   settings:
     board_root: .
