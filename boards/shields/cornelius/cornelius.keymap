@@ -92,7 +92,7 @@ macros {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings 
-        =  <&kp d &kp m &kp a &kp n &kp n &kp AT &kp c &kp h &kp a &kp l &kp l &kp e &kp n &kp g &kp e &kp r &kp s &kp c &kp h &kp o &kp o &kp l &kp DOT &kp c &kp o &kp m> 
+        =  <&kp D &kp M &kp A &kp N &kp N &kp AT &kp C &kp H &kp A &kp L &kp L &kp E &kp N &kp G &kp E &kp R &kp S &kp C &kp H &kp O &kp O &kp L &kp DOT &kp C &kp O &kp M> 
         ;
     };
     admin_pw_only: admin_pw_only {
